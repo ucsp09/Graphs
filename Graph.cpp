@@ -43,7 +43,7 @@ int main()
 	g1.add_edge(2,3);
 	g1.add_edge(5,6);
 	g1.add_edge(5,6);
-	h1.add_edge(2,3);
+	g1.add_edge(2,3);
 	}
 	catch(const char* msg){
 		cout<<endl<<msg;
