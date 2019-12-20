@@ -40,10 +40,10 @@ int main()
 	g1.add_node(3);
 	g1.add_node(4);
  	g1.add_node(5);
-		g1.add_edge(2,3);
-		g1.add_edge(5,6);
-		g1.add_edge(5,6);
-		h1.add_edge(2,3);
+	g1.add_edge(2,3);
+	g1.add_edge(5,6);
+	g1.add_edge(5,6);
+	h1.add_edge(2,3);
 	}
 	catch(const char* msg){
 		cout<<endl<<msg;
