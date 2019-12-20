@@ -1,6 +1,8 @@
 #include<iostream>
 #include<map>
 #include<vector>
+#include<algorithm>
+#include<iterator>
 using namespace std;
 template <typename T>
 class graph
