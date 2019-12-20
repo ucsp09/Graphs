@@ -32,7 +32,17 @@ class graph
 					g[node2].push_back(node1);			
 				}
 			}
-}
+			void display()
+			{
+				typename map< T , vector<T> >::iterator it;
+				for(it=g.begin();it!=g.end();++it)
+				{
+					cout<<endl<<it->first<<":";
+					for(int j=0;j<it->second.size();j++)
+						cout<<it->second[j];	
+				} 
+			}
+};
 int main()
 {
   	try{
@@ -44,6 +54,7 @@ int main()
 	g1.add_edge(5,6);
 	g1.add_edge(5,6);
 	g1.add_edge(2,3);
+	g1.display();
 	}
 	catch(const char* msg){
 		cout<<endl<<msg;
