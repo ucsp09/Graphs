@@ -26,8 +26,8 @@ int main()
 	graph<int> g1;
 	g1.add_node(3);
 	g1.add_node(4);
-  g1.add_node(4);
-  g1.add_node(5);
+  	g1.add_node(4);
+ 	g1.add_node(5);
 	}
 	catch(const char* msg){
 		cout<<endl<<msg;
