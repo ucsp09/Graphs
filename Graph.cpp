@@ -15,11 +15,11 @@ class graph
 			{
 				vector<T> vec;
 				g[a]=vec;
-			}
-		else
-			{
-				throw "This node already Exists";
-			}
+       }
+				else
+				{
+				 throw "This node already Exists";
+				}
 		}
 		void add_edge(T node1,T node2)//complexity O(N) to find if edge already exists O(1) to add edge
 		{
