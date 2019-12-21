@@ -1,2 +1,2 @@
-# Graph-Algorithms
-Implementing Graph Algorithms in C++ by creating a Template Class named graph
+#Graph Interface for C++
+  Creating an interface for graphs in C++ and implementing all graph algorithms.(C++98 version used)
