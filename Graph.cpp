@@ -81,6 +81,7 @@ int main()
 		directed_graph<int> g1;
 		g1.add_edge(1,2);
 		g1.add_node(3);
+		g1.add_node(4);
 		g1.display();
 	}
 	catch(const char* msg){
